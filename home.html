@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gen QR Home Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="dashboard-header">
+    <div class="container">
+      <h1 class="title">Gen QR</h1>
+      <p class="subtitle">Generate your custom QR codes instantly</p>
+    </div>
+  </header>
+
+  <!-- Main QR Generator Section -->
+  <main class="dashboard">
+    <div class="container qr-container">
+      <h2 class="section-title">Enter Text or URL</h2>
+      <input type="text" id="qr-input" placeholder="Enter the message or link"/>
+
+      <div class="btns">
+        <button class="btn primary">Generate QR</button>
+        <button class="btn secondary">Clear</button>
+
+
+      </div>
+
+      <div id="qr-image" class="qr-output"></div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Gen QR. Made by Surbhi Kabra. All rights reserved </p>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
